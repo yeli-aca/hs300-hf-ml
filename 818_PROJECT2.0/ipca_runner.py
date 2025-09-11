@@ -4,7 +4,7 @@ import os
 import numpy as np
 import pandas as pd
 from sklearn.metrics import r2_score, mean_squared_error
-from ipca_core import InstrumentedPCA  # 你的实现
+from ipca_core import InstrumentedPCA
 
 def build_ipca_data(df, factor_cols):
     """从原始 DataFrame 构造 IPCA 输入矩阵"""
